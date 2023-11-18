@@ -1,0 +1,38 @@
+.cards-menu{
+    a{
+        text-decoration: none;
+    }
+
+    .card{
+        width: max-content;
+        height: max-content;
+        margin: 10px;
+    
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .card-image{
+            width: 300px;
+            height: 430px;
+            margin: 30px;
+        }
+        
+        .card-title{
+            width: 290px;
+            text-align: center;
+            height: auto;
+            margin: auto;
+            font-weight: bold;
+            font-size: 21px;
+        }
+        
+    }
+    
+    .card:hover{
+        box-shadow: 5px 5px 5px 5px rgb(207, 207, 207);
+        cursor: pointer;
+    }
+    
+}

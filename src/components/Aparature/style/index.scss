@@ -1,0 +1,63 @@
+.container-aparature{
+    margin: 20px;
+    margin-right: 150px;
+    margin-left: 150px;    
+    box-shadow: 5px 5px 5px 5px rgb(207, 207, 207);
+    padding: 50px;
+    height: max-content;
+
+    .block-image-aparature{
+        border-radius: 15px;
+        border: 1px solid gray;
+        padding: 10px;
+
+        .image-aparature{
+            width: 500px;
+            height: 500px;
+        }
+    }
+
+    .remove-aparature{
+        margin-right: 20px;
+    }
+
+    .title-aparature{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .context-aparature{
+        display: flex;
+
+        .text-content{
+            margin-left: 50px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+    .characteristic-data{
+        width: 100%;
+
+            .text-area-aparature{
+                background-color: #b0b3b2;
+                width: 100%;
+                height: 80%;
+                border-radius: 20px;
+                margin: 30px;
+                padding: 30px;
+                font-size: 20px;
+
+                .aparature-variables{
+                    font-weight: bolder;
+                }
+            }
+
+            .edit-menu-btn{
+                text-align: right;
+                width: 90%;
+            }
+        }
+    }
+}
+
